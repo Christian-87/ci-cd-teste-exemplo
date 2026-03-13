@@ -137,3 +137,19 @@ dist
 # Vite logs files
 vite.config.js.timestamp-*
 vite.config.ts.timestamp-*
+
+# Allure reports
+allure-results/
+allure-report/
+*/allure-results/
+*/allure-report/
+**/allure-results/
+**/allure-report/
+
+
+# Test outputs
+test-output/
+target/allure-results/
+build/allure-results/
+
+videos/
